@@ -332,3 +332,6 @@ webapp/
 ├── next.config.ts                # Next.js configuration
 └── package.json
 ```
+
+---
+*Deployed via genspark_ai_developer branch — all 6 issues resolved, build verified.*
