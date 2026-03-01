@@ -280,6 +280,7 @@ export function initializeDatabase() {
       user_id TEXT,
       role TEXT DEFAULT 'member',
       joined_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      left_at DATETIME,
       FOREIGN KEY(group_id) REFERENCES groups(id),
       FOREIGN KEY(user_id) REFERENCES users(id)
     );
